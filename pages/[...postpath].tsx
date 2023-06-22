@@ -17,7 +17,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
     return {
       redirect: {
         permanent: false,
-        destination: `${'https://saveourstateok.org/' + encodeURI(path as string)}`,
+        destination: `${'https://viewcrate.com/' + encodeURI(path as string)}`,
       },
     }
   }
