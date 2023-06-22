@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
         permanent: false,
         destination: `${'https://saveourstateok.org/' + encodeURI(path as string)}`,
       },
-    };
+    }
   }
 
   const query = gql`
