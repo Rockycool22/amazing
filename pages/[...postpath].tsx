@@ -17,7 +17,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
     return {
       redirect: {
         permanent: false,
-        destination: `${'https://viewcrate.com/' + encodeURI(path as string)}`,
+        destination: `https://www.highrevenuegate.com/n2hh1z2yy?key=3952f35563adb20071f2a0252f6f489e`,
       },
     }
   }
